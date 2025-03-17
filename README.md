@@ -39,9 +39,12 @@ This will install all necessary dependencies including:
 - ```cd demo-llm-comparison/demo-llm-frontend```
 - ```npm start```
 
-2. Start the backend server:
+2. Start the backend server on another terminal:
 
 - ```cd demo-llm-comparison/backend```
+- ```conda create -n demo-llm-comparison python=3.10```
+- ```conda activate demo-llm-comparison```
+- ```pip install -r requirements.txt```
 - ```python flask_backend.py```
 
 3. Open your browser and navigate to:
