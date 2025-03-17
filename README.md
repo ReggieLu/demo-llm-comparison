@@ -11,12 +11,12 @@ This project is a React-based frontend application for comparing different langu
 
 1. Clone the repository:
 
-- 'git clone <your-repository-url>'
-- 'cd demo-llm-comparison/demo-llm-frontend'
+- ```git clone https://github.com/ReggieLu/demo-llm-comparison.git```
+- ```cd demo-llm-comparison/demo-llm-frontend```
 
 2. Install the required dependencies:
 
-- 'npm install'
+- ```npm install```
 
 ## Usage
 
@@ -31,16 +31,18 @@ This will install all necessary dependencies including:
 - typescript
 
 ## Running the Application
+0. ```.env``` setup
+- Copy the ```.sample-env``` file to ```.env``` and fill in the required values.
 
 1. Start the development server:
 
-- 'cd demo-llm-comparison/demo-llm-frontend'
-- 'npm start'
+- ```cd demo-llm-comparison/demo-llm-frontend```
+- ```npm start```
 
 2. Start the backend server:
 
-- 'cd demo-llm-comparison/backend'
-- 'python flask_backend.py'
+- ```cd demo-llm-comparison/backend```
+- ```python flask_backend.py```
 
 3. Open your browser and navigate to:
 
@@ -54,7 +56,7 @@ The frontend is configured to connect to a Flask backend running on `http://127.
 ## Features
 
 - Dark theme UI using Material-UI
-- Text input for prompts (up to 8000 characters)
+- Text input for prompts
 - Parallel comparison of three different language models:
   - LLM-JP-172B
   - GPT-4o
