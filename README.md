@@ -11,12 +11,12 @@ This project is a React-based frontend application for comparing different langu
 
 1. Clone the repository:
 
-git clone <your-repository-url>
-cd demo-flask/demo-llm-frontend
+- 'git clone <your-repository-url>'
+- 'cd demo-llm-comparison/demo-llm-frontend'
 
 2. Install the required dependencies:
 
-npm install
+- 'npm install'
 
 ## Usage
 
@@ -34,9 +34,15 @@ This will install all necessary dependencies including:
 
 1. Start the development server:
 
-npm start
+- 'cd demo-llm-comparison/demo-llm-frontend'
+- 'npm start'
 
-2. Open your browser and navigate to:
+2. Start the backend server:
+
+- 'cd demo-llm-comparison/backend'
+- 'python flask_backend.py'
+
+3. Open your browser and navigate to:
 
 http://localhost:3000
 
